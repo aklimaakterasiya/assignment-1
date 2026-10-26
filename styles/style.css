@@ -1,0 +1,184 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+
+
+/* nav style */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-container li {
+    list-style: none;
+}
+
+/* banner style  */
+
+.banner {
+    text-align: center;
+    background-image: url(../assets/hero-bg.png);
+}
+
+.ery-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    background-color: #ffffff;
+    border-radius: 1000px;
+    border: none;
+    margin-top: 154px;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+    margin: 16px 16px;
+}
+
+span {
+    color: #469165;
+}
+
+.banner p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-2{
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 154px;
+    margin-left: 16px;
+    line-height: 20px;
+}
+
+/* notes style  */
+
+.nites{
+    background-color: #f7f6f2;
+    line-height: 58px;
+    margin: 0 auto;
+    /* max-width: 1360px; */
+}
+
+.notes-container h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #001931;
+}
+
+.notes-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-container{
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.06);
+    text-align: center;
+    margin: 0 60px ;
+}
+
+.card-container img{
+    background-color: #f95555;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 10px ;
+}
+
+.card-container h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #001931;
+    line-height: 29px;
+    margin-top: 5px;
+}
+
+.card-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 5px;
+}
+
+/* design style  */
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 120px;
+}
+
+.design-container h6{
+   font-size: 16px;
+   font-weight: 500;
+   color: #469165;
+}
+
+.design-container h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #001931;
+    margin: 16px;
+}
+
+.design-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.capture p{
+font-size: 16px;
+font-weight: 400;
+color: #001931;
+}
+
